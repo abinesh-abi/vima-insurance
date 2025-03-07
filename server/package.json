@@ -1,0 +1,27 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsx --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "winston": "^3.17.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/lodash": "^4.17.16",
+    "@types/node": "^22.13.4"
+  }
+}
