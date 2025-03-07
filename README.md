@@ -4,6 +4,11 @@
 
 This project consists of a client-side application built with React and a server-side application built with Express. The client interacts with the server to fetch and display insurance premium data.
 
+## Hosted Links
+
+- **Client Application**: [link](https://vima-insurance.onrender.com)
+- **Server API**: [link](https://vima-insurance-server.onrender.com)
+
 ## Folder Structure
 
     client - React client application
