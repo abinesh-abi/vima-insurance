@@ -6,16 +6,8 @@ This project consists of a client-side application built with React and a server
 
 ## Folder Structure
 
-/project-root
-│
-├── /client # React client application
-│ ├── /src # Source files for the React app
-│ ├── package.json # Client dependencies and scripts
-│
-└── /server # Express server application
-├── /routes # API routes
-├── /models # Data models (if any)
-├── package.json # Server dependencies and scripts
+    client - React client application
+    server - Express server application
 
 ## Client Setup
 
