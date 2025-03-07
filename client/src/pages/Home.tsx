@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <div>
       <Heder />
-      <PolicyList />
+      <div className='h-full overflow-y-scroll'>
+        <PolicyList />
+      </div>
     </div>
   )
 }
