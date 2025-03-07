@@ -67,7 +67,8 @@ export default function PolicyList() {
 
             const response = await getPolicies(query)
             setData(response.results)
-            updatePage(response.results, page)
+            updatePage(response.results, 1)
+            setPage(1)
         } catch (error) {
             console.log('err', error)
         } finally { setIsLoading(false) }
